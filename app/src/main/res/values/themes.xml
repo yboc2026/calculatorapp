@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AdvancedCalculator" parent="android:Theme.Material.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="android:colorPrimary">@color/color_primary</item>
+        <item name="android:colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="android:colorSecondary">@color/color_secondary</item>
+        <item name="android:colorSecondaryDark">@color/color_secondary_dark</item>
+        <item name="android:colorAccent">@color/color_accent</item>
+        <item name="android:statusBarColor">@color/color_primary_dark</item>
+        <item name="android:navigationBarColor">@color/color_primary_dark</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        
+        <!-- Glass effect -->
+        <item name="android:colorOnSurface">@color/text_primary</item>
+        <item name="android:colorSurface">@color/glass_primary</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorDisabled">@color/text_disabled</item>
+        
+        <!-- Font -->
+        <item name="android:fontFamily">@font/roboto_mono</item>
+        
+        <!-- Elevation and shadows -->
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!-- Dark theme variant -->
+    <style name="Theme.AdvancedCalculator.Dark" parent="Theme.AdvancedCalculator">
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:colorSurface">@color/glass_primary</item>
+    </style>
+</resources>
