@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Advanced Calculator</string>
+    
+    <!-- Calculator button labels -->
+    <string name="button_0">0</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_dot">.</string>
+    
+    <!-- Operation buttons -->
+    <string name="button_add">+</string>
+    <string name="button_sub">-</string>
+    <string name="button_multiply">×</string>
+    <string name="button_divide">÷</string>
+    <string name="button_equal">=</string>
+    <string name="button_clear">C</string>
+    <string name="button_backspace">⌫</string>
+    <string name="button_percent">%</string>
+    
+    <!-- Function buttons -->
+    <string name="button_sin">sin</string>
+    <string name="button_cos">cos</string>
+    <string name="button_tan">tan</string>
+    <string name="button_asin">asin</string>
+    <string name="button_acos">acos</string>
+    <string name="button_atan">atan</string>
+    <string name="button_log">log</string>
+    <string name="button_ln">ln</string>
+    <string name="button_exp">exp</string>
+    <string name="button_power">^</string>
+    <string name="button_sqrt">√</string>
+    <string name="button_pi">π</string>
+    <string name="button_e">e</string>
+    
+    <!-- Advanced functions -->
+    <string name="button_complex">ℂ</string>
+    <string name="button_matrix">Matrix</string>
+    <string name="button_statistics">Stats</string>
+    <string name="button_derivative">d/dx</string>
+    <string name="button_integral">∫</string>
+    <string name="button_absolute">|x|</string>
+    <string name="button_factorial">n!</string>
+    
+    <!-- Unit conversion -->
+    <string name="button_deg_rad">deg/rad</string>
+    <string name="button_binary">bin</string>
+    <string name="button_hex">hex</string>
+    <string name="button_octal">oct</string>
+    
+    <!-- Engineering -->
+    <string name="button_parallel">Parallel</string>
+    <string name="button_series">Series</string>
+    <string name="button_resistor">R</string>
+    <string name="button_capacitor">C</string>
+    <string name="button_inductor">L</string>
+    
+    <!-- Calculator state -->
+    <string name="display_empty">0</string>
+    <string name="error_syntax">Syntax Error</string>
+    <string name="error_math">Math Error</string>
+    <string name="error_overflow">Overflow</string>
+    <string name="error_division_by_zero">Division by Zero</string>
+    
+    <!-- Mode labels -->
+    <string name="mode_basic">Basic</string>
+    <string name="mode_scientific">Scientific</string>
+    <string name="mode_advanced">Advanced</string>
+    <string name="mode_matrix">Matrix</string>
+    <string name="mode_complex">Complex</string>
+    <string name="mode_engineering">Engineering</string>
+    
+    <!-- Menu labels -->
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_help">Help</string>
+</resources>
